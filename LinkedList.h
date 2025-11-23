@@ -12,21 +12,21 @@ typedef struct Node {
     void *data;
 } node_t;
 
-typedef struct Tree {
+typedef struct LinkedList {
     node_t *head;
     int length;
-} tree_t;
+} linked_list_t;
 
-tree_t *newTree(void *value);
+linked_list_t *newLinkedList(void *value);
 
-void insert(tree_t *tree, void *value);
+int insert(linked_list_t *list, void *value);
 
-void insertAt(tree_t *tree, void *value, int index);
+int insertAt(linked_list_t *list, void *value, int index);
 
-void *get(tree_t *tree, int index);
+void *get(linked_list_t *list, int index);
 
-int length(tree_t *tree);
+int length(linked_list_t *list);
 
-void delete(tree_t *tree, int index);
+int delete(linked_list_t *list, int index);
 
 #endif //LINKEDLIST_LINKEDLIST_H
