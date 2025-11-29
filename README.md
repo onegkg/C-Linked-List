@@ -3,7 +3,7 @@
 A C implementation of a generic linked list data structure built to practice memory management in C.
 
 ## Still To Do
-- Write a free_list() function
+- Write a `free_list()` function
 - Add unit testing
 
 ## Skills Demonstrated
