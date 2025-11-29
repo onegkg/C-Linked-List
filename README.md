@@ -2,11 +2,11 @@
 
 A C implementation of a generic linked list data structure built to practice memory management in C.
 
-##Still To Do
+## Still To Do
 - Write a free_list() function
 - Add unit testing
 
-##Skills Demonstrated
+## Skills Demonstrated
 
 ### Memory Management
 - Dynamic memory allocation using `malloc()` and `free()`
