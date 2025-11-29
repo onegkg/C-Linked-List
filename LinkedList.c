@@ -3,16 +3,6 @@
 #include <stddef.h>
 #include <stdlib.h>
 
-// typedef struct Node {
-//     node_t *next;
-//     void *data;
-// } node_t;
-//
-// typedef struct Tree {
-//     node_t *head;
-//     int length;
-// } tree_t;
-
 /*!
  * @brief Creates a new linked list with value as the head
  * @param value A pointer to heap allocated data to be stored at the head of the list
